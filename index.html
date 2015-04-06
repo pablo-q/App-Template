@@ -6,16 +6,24 @@
 		<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
 		<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 		
+		<link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+		
 		<!--external resources like javacript in css style sheets -->
 		<link rel="stylesheet" type="text/css" href="myCss.css">
 		<script src="myJavaScript.js"></script>
 	</head>
 
-	<body>
-		Content of the document......
-
-		<input id="myDiv" val="hello">
-		<div id="canvas" height="42" width="42"></div>
+	<body class="MyGradientClass">
+		<div class="container">
+			<div class="column1">
+				<input id="myInput" val="hello">
+				<div id="myDiv" height="42" width="42" class="center"></div>
+			</div>
+			<div class="column2">
+				<button type="button" class="btn btn-lg btn-success">Success</button>
+			</div>
+		</div>
 		
 	</body>
 
